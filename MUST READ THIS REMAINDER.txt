@@ -1,0 +1,20 @@
+remainder boii
+
+when using git hub repository with git bash
+
+you need to remember this few steps
+cloning a git repository:
+- git clone (link of the git repository)
+
+editing or changing a downloaded code.
+first you check code status (if things are in track)
+- git status
+// it will show you all the files that has been changed
+// if you wanna setup those files to be saved in github...
+- git add . 			//add a dot (.) if you wanna select all of those files
+- git add -all 			//works the same with dot
+- git add (name of the file)	//if you wanna send a specific file
+git commit -m "first commit"	//you can chenge the "first commit" anything.
+git branch -m main		//this branching system are for version control ii havent triied this
+				//version control so i still have to study about it
+git push -u origin main		//push is the call sign to "push" code into github repository
