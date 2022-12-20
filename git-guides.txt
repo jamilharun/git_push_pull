@@ -8,9 +8,8 @@ cloning a git repository:
 
 editing or changing a downloaded code.
 first you check code status (if things are in track)
-- git status
-// it will show you all the files that has been changed
-// if you wanna setup those files to be saved in github...
+- git status			// it will show you all the files that has been changed
+				// if you wanna setup those files to be saved in github...
 - git add . 			//add a dot (.) if you wanna select all of those files
 - git add -all 			//works the same with dot
 - git add (name of the file)	//if you wanna send a specific file
@@ -18,3 +17,22 @@ git commit -m "first commit"	//you can chenge the "first commit" anything.
 git branch -m main		//this branching system are for version control ii havent triied this
 				//version control so i still have to study about it
 git push -u origin main		//push is the call sign to "push" code into github repository
+
+
+To put a local folder into a Git repository, you'll need to follow these steps:
+
+1. Open a terminal window and navigate to the local folder 
+you want to add to the repository.
+
+2. Initialize the folder as a Git repository by running the following command:
+- git init			//Add the files in the folder to the repository's 
+				//staging area by running:
+- git add .			//Commit the files to the repository by running:
+- git commit -m "Initial commit"//If you want to push the repository to a remote 
+				//server (e.g., GitHub), you'll need to add a remote reference and then push 							//the repository to that remote. You can do this by running the following commands:
+- git remote add origin <remote_repository_url>
+- git push -u origin master	//That's the basic process for adding a local folder to a 
+				//Git repository. If you have any questions or run into any 									//issues, don't hesitate to ask for help.
+
+
+
