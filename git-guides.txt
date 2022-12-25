@@ -1,12 +1,48 @@
-remainder boii
+GITHUB GUIDE v1.6
+by jamil linzag
 
-when using git hub repository with git bash
+i would update  this time to time,  once i encounter a specific git issue....
 
-you need to remember this few steps
-cloning a git repository:
-- git clone (link of the git repository)
+to use git make sure you have git downloaded in your device
+to check if you have git in your device:	
+1. open your cmd:
+enter: git
 
-editing or changing a downloaded code.
+if (it output a bunch of commands){
+then you git installed in your device
+} else{
+then you dony have git installed in your device
+}
+
+reminder: 
+1. Git and Github are different. Git is a terminal command and Github is a website
+2. upon downloading Git.. you'll get a package of git bash. it work similarly with cmd but with colors
+3. you can use cmd or gitbash when inputting your code.
+4. its a good habit to push your code to git when its working properly.
+
+comon uses:
+1. taking the code from git repository.
+- git clone <remote_repository_url>
+
+2. taking your local folder to git repository
+you'll need to follow these steps:
+//1. Open a terminal window and navigate to the local folder 
+you want to add to the repository.
+//2. Initialize the folder as a Git repository by running the following command:
+- git init			//Add the files in the folder to the repository's 
+				//staging area by running:
+- git add .			//Commit the files to the repository by running:
+- git commit -m "Initial commit"//If you want to push the repository to a remote 
+				//server (e.g., GitHub), you'll need to add a remote reference and then push		
+				//the repository to that remote. You can do this by running the following commands:
+- git remote add origin <remote_repository_url>	//if you dont have a remote repository link then. create a 
+				//repository from github. it will provite you with a remote repository link which
+				//you wil use in your git commands. 
+- git push -u origin master	//That's the basic process for adding a local folder to a 
+				//Git repository. If you have any questions or run into any 								//issues, don't hesitate to ask for help.
+
+
+editing/ changing/ updating your code on github.
 first you check code status (if things are in track)
 - git status			// it will show you all the files that has been changed
 				// if you wanna setup those files to be saved in github...
@@ -14,25 +50,26 @@ first you check code status (if things are in track)
 - git add -all 			//works the same with dot
 - git add (name of the file)	//if you wanna send a specific file
 git commit -m "first commit"	//you can chenge the "first commit" anything.
-git branch -m main		//this branching system are for version control ii havent triied this
+git branch -m main		//this branching system are for version control
+				//the word "main" will serve as a "main" branch in your gitrepository
 				//version control so i still have to study about it
 git push -u origin main		//push is the call sign to "push" code into github repository
 
 
-To put a local folder into a Git repository, you'll need to follow these steps:
-
-1. Open a terminal window and navigate to the local folder 
-you want to add to the repository.
-
-2. Initialize the folder as a Git repository by running the following command:
-- git init			//Add the files in the folder to the repository's 
-				//staging area by running:
-- git add .			//Commit the files to the repository by running:
-- git commit -m "Initial commit"//If you want to push the repository to a remote 
-				//server (e.g., GitHub), you'll need to add a remote reference and then push 							//the repository to that remote. You can do this by running the following commands:
-- git remote add origin <remote_repository_url>
-- git push -u origin master	//That's the basic process for adding a local folder to a 
-				//Git repository. If you have any questions or run into any 									//issues, don't hesitate to ask for help.
+branch/ branching
+is a version control method, when you want to keep differend versions of your code.
+meaning you want to keep the old version while working on with the latest version,
+common branch names:
+master	main	sub	first	second
+third
 
 
 
+warning list/ threatment/ meaning
+git add .
+warning: LF will be replaced by CRLF in app/src/main/res/values/strings.xml.
+The file will have its original line endings in your working directory
+
+git commit "initial commit"
+error: pathspec 'initial commit' did not match any file(s) known to git
+solution: git commit -m "initial commit"
