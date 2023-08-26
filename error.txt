@@ -1,0 +1,14 @@
+
+warning list/ threatment/ meaning
+git add .
+warning: LF will be replaced by CRLF in app/src/main/res/values/strings.xml.
+The file will have its original line endings in your working directory
+error:
+cause:
+solution:
+
+
+git commit "initial commit"
+error: pathspec 'initial commit' did not match any file(s) known to git
+cause: you forgot to add "-m"
+solution: git commit -m "initial commit"

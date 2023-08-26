@@ -1,0 +1,57 @@
+taking your local folder to git repository
+you'll need to follow these steps:
+//1. Open a terminal window and navigate to the local folder.
+				//or contact me so i can tell you the fastest way to locate a directory with cmd. 
+you want to add to the repository.
+//2. Initialize the folder as a Git repository by running the following command:
+- git init			//Add the files in the folder to the repository's staging area by running:
+- git add .			//Commit the files to the repository by running:
+- git commit -m "Initial commit"//If you want to push the repository to a remote server (e.g., GitHub), you'll 
+				//need to add a remote reference and then push the repository to that remote. 
+				//You can do this by running the following commands:
+- git remote add origin <remote_repository_url>	
+				//if you dont have a remote repository link then. create a repository from 
+				//github. it will provite you with a remote repository link which you wil use 
+				//in your git commands. 
+- git push -u origin main	//That's the basic process for adding a local folder to a 
+				//Git repository. If you have any questions or run into any 
+                //issues, don't hesitate to ask for help.
+
+NOTE. in the past. the first branch name you'll get
+in creating a repository is "master". then it change into 
+"main". but you can still use "master" for preferences.
+you can change it when creating a repo.
+
+
+editing/ changing/ updating your code on github.
+first you check code status (if things are in track)
+- git status			// it will show you all the files that has been changed
+						// if you wanna setup those files to be saved in github...
+
+
+- git add . 			//add a dot (.) if you wanna select all of those files
+
+<optional>
+- git add -all 			//works the same with dot
+- git add (name of the file)	
+                        //if you wanna send a specific file
+
+
+- git commit -m "first commit"	//you can chenge the "first commit" anything.
+- git push -u origin main	//push is the call sign to "push" code into github repository
+
+NOTE.... if you wanna push your progress 
+		to a different branch
+- git branch -m <branch>	//this branching system are for version control
+				//example. if you put "branch2", then it will create a branch "branch2" in your repository
+				
+
+NOTE:   branch/ branching
+is a version control method, when you want to keep differend versions of your code.
+meaning you want to keep the old version while working on with the latest version,
+common branch names:
+
+master	main	sub	first	second	third
+
+branching can be use as a save point on your code.
+a branch where you can always start over.

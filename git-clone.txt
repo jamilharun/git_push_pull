@@ -1,0 +1,4 @@
+1. taking the code from git repository.
+
+- git clone <remote_repository_url>
+				//this will make a replicate to repo link you just copied

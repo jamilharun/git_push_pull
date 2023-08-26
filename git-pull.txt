@@ -1,0 +1,8 @@
+when you want to pull from a remote repository
+-git pull	//to get all branch from the remote...
+-git checkout --track origin/<branch name>
+
+WARNIN.. you must save your current progress in your 
+current repo before switching to other repo 
+
+git branch -a   	//to see all repo branch
