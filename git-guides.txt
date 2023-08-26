@@ -1,4 +1,4 @@
-GITHUB GUIDE v1.6.10
+GITHUB GUIDE v1.6.12
 by jamil linzag
 
 i would update  this time to time,  once i encounter a specific git issue....
