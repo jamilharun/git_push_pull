@@ -1,0 +1,4 @@
+git remote -v       - to check what repository link is the project currently connected
+
+git remote set-url origin <new repository link>
+                    - to change the current repo link to a new repository link
