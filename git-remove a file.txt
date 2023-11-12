@@ -1,0 +1,21 @@
+a scenario were you mistakenly push your code to your 
+git repo along with your sensitive data like..
+
+API keys, secrets, domains, IDs
+
+to remove a file like this in your git repo using
+your local terminal
+
+git rm -r --cached .env
+
+if you have more than 1 data saved in your git commits.
+then use this code..
+
+git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch .env" HEAD
+
+make sure to commit and push the changes you put in your git repo
+
+to completely avoid all future mistakes in push-ing sensitive data. 
+
+go to the gitignore and add
+.env
