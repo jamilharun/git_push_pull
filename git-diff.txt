@@ -1,0 +1,4 @@
+git diff
+
+
+git diff > patchfile.patch
