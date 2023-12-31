@@ -1,0 +1,5 @@
+
+
+git ls-files | grep '\<your file you wanna find>$'
+
+git rm --cached $(git ls-files | grep '\<the file name you wanna remove>$')
